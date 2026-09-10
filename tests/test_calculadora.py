@@ -14,3 +14,8 @@ def test_multiplicar():
     resultado = multiplicar(10,3)
 
     assert resultado == 30
+
+def test_media():
+    resultado = media(10,5,4,8,7)
+
+    assert resultado == 6.8
